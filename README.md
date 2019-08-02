@@ -1,2 +1,2 @@
 # Cycled-downloader
-Cycled downloader for thispersondoesnotexist
+Cycled downloader for thispersondoesnotexist.com
