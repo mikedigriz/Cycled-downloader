@@ -1,5 +1,5 @@
 # Cycled-downloader
-Cycled downloader for thispersondoesnotexist.com
+Cycled picture downloader for thispersondoesnotexist.com
 
 Installation
 
