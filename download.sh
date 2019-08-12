@@ -2,6 +2,5 @@
 x=1
 while [ $x -le 100000 ]
 do
-wget https://thispersondoesnotexist.com/image
-x=$(( x + 1))
+wget --user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20190101 Firefox/27.0" thispersondoesnotexist.com/image -O $(date '+%Y-%m-%s').jpg
 done
