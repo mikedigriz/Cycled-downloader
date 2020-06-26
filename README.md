@@ -5,7 +5,7 @@ Cycled picture downloader for thispersondoesnotexist.com
 ```
 1. git clone https://github.com/mixaxdd/Cycled-downloader
 2. cd Cycled-downloader/ && chmod -x download.sh
-3. Run! ./download.sh
+3. ./download.sh
 ```
 <b>Note</b>
 
