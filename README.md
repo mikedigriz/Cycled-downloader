@@ -1,5 +1,5 @@
 # Cycled-downloader
-Cycled picture downloader for thispersondoesnotexist.com
+Cycled picture downloader for thispersondoesnotexist.com and thiscatdoesnotexist.com
 
 <b>Installation</b>
 ```
