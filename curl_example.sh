@@ -9,7 +9,7 @@ do
 curl 'https://thispersondoesnotexist.com/image' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0' -H 'Accept: image/avif,image/webp,*/*' -H 'Accept-Language: ru,en-US;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Referer: https://thispersondoesnotexist.com/' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Sec-Fetch-Dest: image' -H 'Sec-Fetch-Mode: no-cors' -H 'Sec-Fetch-Site: same-origin' -H 'If-Modified-Since: Fri, 18 Nov 2022 20:09:04 GMT' -H 'If-None-Match: "6377e660-8f3fa"' -H 'TE: trailers' --output $counter.jpeg
 echo Progress[$counter/$pictures]
 counter=$((counter+1))
-# noqa they already have request limit
+# no required they already have request limit
 sleep $[ ( $RANDOM % 5 )  + 1 ]
 done
 echo Done!
