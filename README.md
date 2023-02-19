@@ -3,7 +3,7 @@ Cycled picture downloader for thispersondoesnotexist.com and thiscatdoesnotexist
 
 <b>Installation</b>
 ```
-git clone https://github.com/mixaxdd/Cycled-downloader
+git clone https://github.com/mikedigriz/Cycled-downloader
 cd Cycled-downloader/ && chmod +x *.sh
 ./download.sh
 ```
